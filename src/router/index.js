@@ -22,6 +22,11 @@ const router = createRouter({
       name: 'page1',
       component: () => import('../views/FirstPage.vue')
     },
+    {
+      path: '/page2',
+      name: 'page2',
+      component: () => import('../views/SecondPage.vue')
+    },
   ]
 })
 
