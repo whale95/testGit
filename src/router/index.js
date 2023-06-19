@@ -27,6 +27,7 @@ const router = createRouter({
       name: 'page2',
       component: () => import('../views/SecondPage.vue')
     },
+    
   ]
 })
 
