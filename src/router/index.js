@@ -27,6 +27,16 @@ const router = createRouter({
       name: 'page2',
       component: () => import('../views/SecondPage.vue')
     },
+    {
+      path: '/page3',
+      name: 'page3',
+      component: () => import('../views/ThirdPage.vue')
+    },
+    {
+      path: '/page4',
+      name: 'page4',
+      component: () => import('../views/FourPage.vue')
+    },
     
   ]
 })
